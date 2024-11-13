@@ -1,8 +1,10 @@
 
 const Display = () => {
     return (
-        <div>
-
+        <div className="bg-dark">
+            <div className="p-2 text-light text-end">
+                text here
+            </div>
         </div>
     );
 };

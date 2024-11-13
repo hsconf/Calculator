@@ -1,8 +1,30 @@
+import './css/style.css';
 
 const Keyboard = () => {
     return (
-        <div>
-
+        <div className="keyboard">
+            <div className="numbers">
+                <button>9</button>
+                <button>8</button>
+                <button>7</button>
+                <button>6</button>
+                <button>5</button>
+                <button>4</button>
+                <button>3</button>
+                <button>2</button>
+                <button>1</button>
+                <button>0</button>
+                <button>.</button>
+                <button>+</button>
+            </div>
+            <div className="symbols">
+                <button>ON
+                    <hr className="m-0" />
+                AC</button>
+                <button>*</button>
+                <button>-</button>
+                <button>=</button>
+            </div>
         </div>
     );
 };
