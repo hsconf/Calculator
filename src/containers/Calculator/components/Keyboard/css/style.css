@@ -1,0 +1,36 @@
+.keyboard {
+    display: flex;
+    column-gap: 5px;
+    padding: 10px;
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 50px;
+    flex-grow: 1;
+    gap: 3px;
+
+    button {
+        background: #b700ff;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    button:active {
+        transform: scale(0.8);
+        transition: .2s;
+    }
+}
+
+.symbols {
+    display: grid;
+    grid-template-columns: 60px;
+    row-gap: 3px;
+
+    button:active {
+        transform: scale(0.8);
+        transition: .2s;
+    }
+}
